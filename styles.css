@@ -76,6 +76,7 @@
                 height: 100px;
                 position: relative;
                 animation: wiggle 5s infinite;
+                animation-delay: 1s;
                 animation-timing-function: ease-in;
                 animation-fill-mode: forwards;
               }
@@ -84,6 +85,7 @@
                 height: 100px;
                 position: relative;
                 animation: wiggle 5s infinite;
+                animation-delay: 2s;
                 animation-timing-function: ease-in;
                 animation-fill-mode: forwards;
               }
@@ -92,6 +94,7 @@
                 height: 100px;
                 position: relative;
                 animation: wiggle 5s infinite;
+                animation-delay: 3s;
                 animation-timing-function: ease-in;
                 animation-fill-mode: forwards;
               }
@@ -100,6 +103,16 @@
                 height: 100px;
                 position: relative;
                 animation: wiggle 5s infinite;
+                animation-delay: 4s;
+                animation-timing-function: ease-in;
+                animation-fill-mode: forwards;
+              }
+              .mirko{
+                width: 100px;
+                height: 100px;
+                position: relative;
+                animation: wiggle 5s infinite;
+                animation-delay: 4s;
                 animation-timing-function: ease-in;
                 animation-fill-mode: forwards;
               }
@@ -107,20 +120,26 @@
                 0% {
                   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
                   transform: translatey(0px);
-                  left: 50px;
-                  top: 30px;
+                  left: 150px;
+                  top: 70px;
                 }
                 50% {
                   box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
                   transform: translatey(-20px);
-                  left: 100px;
-                  top: 60px;
+                  left: 300px;
+                  top: 200px;
+                }
+                75%{
+                  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+                  transform: translatey(0px);
+                  left: -50px;
+                  top: 300px;
                 }
                 100% {
                   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
                   transform: translatey(0px);
-                  left: 50px;
-                  top: 30px;
+                  left: 150px;
+                  top: 70px;
                 }
               }
               
